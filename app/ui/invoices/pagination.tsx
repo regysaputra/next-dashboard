@@ -1,9 +1,9 @@
 'use client';
 
 import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/react/24/outline';
-import  from 'clsx';
 import Link from 'next/link';
 import { generatePagination } from '@/app/lib/utils';
+import clsx from "clsx";
 
 export default function Pagination({ totalPages }: { totalPages: number }) {
   // NOTE: comment in this code when you get to this point in the course
